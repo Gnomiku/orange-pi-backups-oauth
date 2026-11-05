@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy — Orange Pi Backups</title><style>body{font:17px/1.7 system-ui,sans-serif;max-width:780px;margin:60px auto;padding:0 24px;color:#17212b;background:#fafbfc}h1,h2{line-height:1.25}h1{font-size:36px}h2{font-size:22px;margin-top:30px}a{color:#145db7}nav{margin:28px 0}small{color:#56616d}</style></head><body><main><h1>Privacy Policy</h1>
+<p>This policy describes Orange Pi Backups, a personal rclone-based backup utility controlled by its operator.</p>
+<h2>Data accessed and purpose</h2>
+<p>The utility accesses Google Drive only after the account owner grants OAuth authorization. It processes backup file names, identifiers, sizes, checksums and other file metadata to upload and verify backup archives. Archives can contain saved Minecraft worlds, player data, server settings and management configuration. These data are used for backup and restoration.</p>
+<h2>Permissions and storage</h2>
+<p>The OAuth Drive permission used by rclone allows broad access to the authorized account’s files. The scheduled utility is configured to use a dedicated backup folder. OAuth credentials are stored in private configuration files on the operator’s server. Backup archives are stored on that server and in the operator’s Google Drive.</p>
+<h2>Sharing and use</h2>
+<p>The utility does not sell backup contents or Google user data, use them for advertising, or use them to train AI models. The scheduled utility does not make backup archives publicly accessible. Google processes files as the chosen cloud storage provider under its own applicable terms and privacy policy.</p>
+<h2>Retention and deletion</h2>
+<p>The newest complete backup is kept locally. Older local copies are deleted only after a newer complete local backup exists and their cloud upload has been verified. Cloud archives remain until the operator deletes them. Failed uploads leave the local files in place.</p>
+<p>The account owner may revoke authorization in their Google Account security settings and delete archives from Google Drive. Revoking access stops future authorized operations; it does not automatically remove existing backup files.</p>
+<h2>This website and contact</h2>
+<p>This informational website contains no login form, analytics scripts or advertising integrations. It is intended for GitHub Pages hosting, whose normal hosting data practices are described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+<p>For questions or deletion requests, contact the operator using the support email shown on the Google OAuth consent screen.</p></main><nav><a href="./index.html">Home</a> · <a href="./privacy.html">Privacy policy</a> · <a href="./terms.html">Terms of use</a></nav><footer><small>Personal backup utility. Last updated: 6 November 2026.</small></footer></body></html>
